@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello, World!\nI am Prithvish Raj Shukla");
+    char text[] = "Hello, World!, I Am Prithvish";
+    int i = 0;
+    while (text[i] != '\0') {
+        printf("%c", text[i]);
+        i++;
+    }
     return 0;
 }
