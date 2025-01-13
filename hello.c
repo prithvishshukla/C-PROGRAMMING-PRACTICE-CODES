@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello, World!\n
-      I am Prithvish Raj Shukla");
+    printf("Hello, World!\nI am Prithvish Raj Shukla");
     return 0;
 }
