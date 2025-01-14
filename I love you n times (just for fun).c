@@ -1,5 +1,6 @@
 #include <stdio.h>
 // I love you n times (just for fun)
+// application of while loop
 int main(){
     int n,i=0;
     printf("No of time:\n");
