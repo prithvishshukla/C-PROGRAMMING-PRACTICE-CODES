@@ -9,7 +9,10 @@ void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod) {
  towerOfHanoi(n - 1, aux_rod, to_rod, from_rod);
 }
 int main() {
- int n = 18; // Number of disks
+    int a;
+    printf("No of disc:\n");
+    scanf("%d", &a);
+ int n = a; // Number of disks
  towerOfHanoi(n, 'A', 'C', 'B'); // A, B, and C are the rod names
  return 0;
 } 
